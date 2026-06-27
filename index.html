@@ -3,40 +3,324 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maral</title>
+  <title>Maral Dalaei — Motion Designer & Video Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Maral</h1>
-    <p class="tagline">A simple test page for GitHub Pages</p>
+  <nav class="site-nav">
+    <a class="logo" href="#">Maral Dalaei</a>
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <p class="eyebrow">Portfolio &amp; Resume</p>
+    <h1>Maral Dalaei</h1>
+    <p class="title">Video Editor · Motion Designer · Short-form Content Specialist</p>
+    <p class="hero-lead">
+      Creative editor and animator crafting engaging motion graphics, animation, and
+      social-first video for brands and studios worldwide.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#work">View work</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
   </header>
 
   <main>
-    <section class="intro">
-      <h2>Hello, I'm Maral</h2>
-      <p>
-        This is a small personal page hosted on GitHub Pages. It is a quick test
-        to confirm that free hosting works for sharing a bio and embedded media.
-      </p>
+    <section class="section" id="work">
+      <div class="section-head">
+        <span class="section-label">Featured</span>
+        <h2>Showreel</h2>
+        <p class="section-desc">Replace this placeholder with your main demo reel or best highlight cut.</p>
+      </div>
+      <div class="media-block media-block--wide">
+        <div class="placeholder placeholder--video" role="img" aria-label="Showreel video placeholder">
+          <span class="placeholder-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </span>
+          <span class="placeholder-label">Showreel · 16:9</span>
+          <span class="placeholder-hint">Drop in YouTube, Vimeo, or MP4 embed</span>
+        </div>
+      </div>
     </section>
 
-    <section class="video">
-      <h2>Featured video</h2>
-      <p>Example YouTube embed to verify video playback on the site:</p>
-      <div class="video-wrapper">
-        <iframe
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="Example YouTube video"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+    <section class="section">
+      <div class="section-head">
+        <span class="section-label">Selected work</span>
+        <h2>Animation &amp; motion projects</h2>
+      </div>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="placeholder placeholder--image" role="img" aria-label="Friedefeld project thumbnail">
+            <span class="placeholder-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </span>
+            <span class="placeholder-label">Image / frame</span>
+          </div>
+          <div class="work-card-body">
+            <h3>Friedefeld</h3>
+            <p>2D Animator · German cut-out series · Toon Boom Harmony</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="placeholder placeholder--image" role="img" aria-label="Bartali's Bicycle project thumbnail">
+            <span class="placeholder-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </span>
+            <span class="placeholder-label">Image / frame</span>
+          </div>
+          <div class="work-card-body">
+            <h3>Bartali's Bicycle</h3>
+            <p>2D Animator · International animated feature film</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="placeholder placeholder--image" role="img" aria-label="Nimuendaju project thumbnail">
+            <span class="placeholder-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </span>
+            <span class="placeholder-label">Image / frame</span>
+          </div>
+          <div class="work-card-body">
+            <h3>Nimuendaju</h3>
+            <p>Frame-by-frame Animator · Feature film · TVPaint</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="placeholder placeholder--image" role="img" aria-label="Juliette and the King project thumbnail">
+            <span class="placeholder-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </span>
+            <span class="placeholder-label">Image / frame</span>
+          </div>
+          <div class="work-card-body">
+            <h3>Juliette and the King · Pix &amp; Leo</h3>
+            <p>Assistant Animator · Cleanup, coloring &amp; in-betweening</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <span class="section-label">Social &amp; short-form</span>
+        <h2>Motion &amp; edit samples</h2>
+        <p class="section-desc">Vertical placeholders for Instagram Reels, YouTube Shorts, and campaign clips.</p>
+      </div>
+      <div class="reels-row">
+        <div class="media-block media-block--tall">
+          <div class="placeholder placeholder--video placeholder--vertical" role="img" aria-label="Short-form video sample 1">
+            <span class="placeholder-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <span class="placeholder-label">Reel / Short · 9:16</span>
+          </div>
+        </div>
+        <div class="media-block media-block--tall">
+          <div class="placeholder placeholder--video placeholder--vertical" role="img" aria-label="Short-form video sample 2">
+            <span class="placeholder-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <span class="placeholder-label">Reel / Short · 9:16</span>
+          </div>
+        </div>
+        <div class="media-block media-block--tall">
+          <div class="placeholder placeholder--video placeholder--vertical" role="img" aria-label="Motion graphics sample">
+            <span class="placeholder-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            <span class="placeholder-label">Motion graphic · 9:16</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="about-grid">
+        <div class="section-head">
+          <span class="section-label">About</span>
+          <h2>Summary</h2>
+        </div>
+        <div class="about-content">
+          <p class="summary-text">
+            Creative Video Editor and Motion Designer with 5+ years of experience in animation,
+            motion graphics, and short-form content production. Skilled in creating engaging
+            social media content and optimizing production workflows through efficient editing
+            techniques and AI-assisted processes. Experienced in collaborating with international
+            studios and remote creative teams.
+          </p>
+          <div class="skill-tags">
+            <span>Premiere Pro</span>
+            <span>After Effects</span>
+            <span>Motion Design</span>
+            <span>2D Animation</span>
+            <span>Short-form Content</span>
+            <span>AI-assisted Workflow</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head">
+        <span class="section-label">Career</span>
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="entry">
+          <div class="entry-marker"></div>
+          <div class="entry-content">
+            <p class="meta">April 2025 – Present</p>
+            <h3>Social Media Video Editor &amp; Motion Designer</h3>
+            <p class="company">ZoraFX · Remote</p>
+            <ul>
+              <li>Edit short-form video content for Instagram, YouTube, and other digital platforms.</li>
+              <li>Create custom motion graphics to support marketing and brand campaigns.</li>
+              <li>Utilize AI-assisted workflows to streamline production and improve efficiency.</li>
+              <li>Collaborate with content managers to maintain brand consistency and audience engagement.</li>
+              <li>Deliver high-quality content within tight deadlines in a remote work environment.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-marker"></div>
+          <div class="entry-content">
+            <p class="meta">January 2024 – March 2025</p>
+            <h3>Independent Motion Designer &amp; Animator</h3>
+            <ul>
+              <li>Produced motion graphics and multimedia assets for digital platforms and independent clients.</li>
+              <li>Managed projects from concept development through final delivery.</li>
+              <li>Created engaging visual content tailored to client objectives and target audiences.</li>
+              <li>Coordinated directly with clients to ensure project requirements and deadlines were met.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-marker"></div>
+          <div class="entry-content">
+            <p class="meta">June 2022 – December 2024</p>
+            <h3>2D Animator</h3>
+            <p class="company">Hoorakhsh Animation Studio</p>
+            <ul>
+              <li>Contributed to international animated series and feature film productions.</li>
+              <li>Created frame-by-frame and cut-out animations using industry-standard software.</li>
+              <li>Performed cleanup, coloring, and in-betweening to support production quality.</li>
+              <li>Collaborated with animators, directors, and production teams throughout the animation pipeline.</li>
+              <li>Maintained consistency with artistic and technical requirements across projects.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <span class="section-label">Toolkit</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3 class="skill-group">Software</h3>
+          <ul class="skill-list">
+            <li>Adobe Premiere Pro</li>
+            <li>After Effects</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>TVPaint</li>
+            <li>Toon Boom Harmony</li>
+            <li>Adobe Animate</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3 class="skill-group">Creative</h3>
+          <ul class="skill-list">
+            <li>Video Editing</li>
+            <li>Motion Design</li>
+            <li>Short-form Content</li>
+            <li>Storytelling</li>
+            <li>Character Design</li>
+            <li>Sketching</li>
+          </ul>
+        </div>
+        <div class="skill-block">
+          <h3 class="skill-group">Workflow</h3>
+          <ul class="skill-list">
+            <li>AI-assisted Production</li>
+            <li>Remote Collaboration</li>
+            <li>Asset Optimization</li>
+            <li>Collaborative Teamwork</li>
+            <li>Strong Communication Skills</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="info-grid">
+        <div>
+          <h2 class="info-heading">Education</h2>
+          <article class="entry compact">
+            <h3>Bachelor's Degree in Animation</h3>
+            <p class="meta">Shariati University – Tehran, Iran</p>
+            <p class="meta">September 2021 – September 2024</p>
+          </article>
+          <article class="entry compact">
+            <h3>Associate Degree in Animation</h3>
+            <p class="meta">Shariati University</p>
+            <p class="meta">January 2018 – June 2019</p>
+          </article>
+        </div>
+        <div>
+          <h2 class="info-heading">Languages</h2>
+          <ul class="plain-list">
+            <li>Persian · Native</li>
+            <li>English · Upper Intermediate (B2)</li>
+          </ul>
+          <h2 class="info-heading info-heading--spaced">Interests</h2>
+          <ul class="plain-list">
+            <li>Animation &amp; Visual Storytelling</li>
+            <li>Sketching &amp; Character Design</li>
+            <li>Fitness &amp; Healthy Lifestyle</li>
+            <li>Reading · Cinema · Creative Technologies</li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>Hosted with <a href="https://pages.github.com/">GitHub Pages</a></p>
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-intro">
+        <h2>Let's create something together</h2>
+        <p>Available for remote motion design, animation, and short-form video projects.</p>
+      </div>
+      <div class="contact-links">
+        <a class="contact-chip" href="mailto:maral.dalaei@gmail.com">maral.dalaei@gmail.com</a>
+        <a class="contact-chip" href="tel:+37455185225">+374 55 185225</a>
+        <a class="contact-chip" href="https://wa.me/989013651220">+98 901 365 1220</a>
+        <span class="contact-chip contact-chip--static">Yerevan, Armenia</span>
+      </div>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/maraldalaei" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://behance.net/maraldalaei" target="_blank" rel="noopener noreferrer">Behance</a>
+      </div>
+      <p class="copyright">© Maral Dalaei</p>
+    </div>
   </footer>
 </body>
 </html>

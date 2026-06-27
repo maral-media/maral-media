@@ -1,52 +1,53 @@
 # Maral Media
 
-A simple static website about Maral, set up for [GitHub Pages](https://pages.github.com/) free hosting.
+Static resume site for Maral Dalaei, hosted on [GitHub Pages](https://pages.github.com/).
 
-## What you get
+## Live URL (root, no path)
 
-After you enable GitHub Pages (see below), the site will be live at:
+After setup, the site is served at:
 
-**https://test-maral-site.github.io/maral-media/**
+**https://maral-media.github.io/**
 
-That URL comes from the GitHub organization/user name (`test-maral-site`) plus the repository name (`maral-media`).
+GitHub only serves an organization site at the **root** when the repository is named exactly **`maral-media.github.io`**. If the repo stays named `maral-media`, the URL would be `https://maral-media.github.io/maral-media/` instead.
 
-## How to publish the site
+## One-time setup
 
-1. **Push this repo to GitHub** (if you have not already):
+1. **Use the correct repository name for a root URL**
+   - Organization: [maral-media](https://github.com/maral-media)
+   - Rename this repository to **`maral-media.github.io`**
+   - On GitHub: **Settings** → **General** → **Repository name** → `maral-media.github.io`
+
+2. **Push the site files**
    ```bash
    git add .
-   git commit -m "Add GitHub Pages site for Maral"
+   git commit -m "Add Maral resume site for GitHub Pages"
    git push origin master
    ```
 
-2. **Turn on GitHub Pages** in the repository on GitHub:
-   - Open https://github.com/test-maral-site/maral-media
+3. **Enable GitHub Pages**
+   - Open https://github.com/maral-media/maral-media.github.io
    - Go to **Settings** → **Pages**
-   - Under **Build and deployment** → **Source**, choose **Deploy from a branch**
-   - Under **Branch**, select `master` and folder **`/ (root)`**, then click **Save**
+   - **Source:** Deploy from a branch
+   - **Branch:** `master`, folder **`/ (root)`**
+   - Click **Save**
 
-3. **Wait a minute or two** for GitHub to build and deploy. Refresh the **Pages** settings page; you should see a message like “Your site is live at …” with the URL above.
+4. **Wait 1–2 minutes**, then open **https://maral-media.github.io/**
 
-4. **Open the site** in your browser:
-   ```
-   https://test-maral-site.github.io/maral-media/
-   ```
-
-You should see a short page about Maral and an embedded YouTube video as a test.
+Files are published from the repository **root** (`index.html`, `styles.css`) — no subfolder or build step.
 
 ## Updating the site
 
-Edit `index.html` (and `styles.css` if you want to change styling), commit, and push to the same branch you use for Pages. Changes usually appear within a minute or two.
+Edit `index.html` and/or `styles.css`, commit, and push to `master`. Changes usually appear within a minute or two.
 
 ## Files
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Main page content and YouTube embed |
-| `styles.css` | Basic styling |
+| `index.html` | Resume content |
+| `styles.css` | Page styling |
 
 ## Notes
 
-- This repo uses plain HTML/CSS, so no build step is required.
-- If you ever rename the repo, the URL path will change to match the new repo name.
-- To use a custom domain later, add it under **Settings** → **Pages** → **Custom domain**.
+- Plain HTML/CSS — no build step required.
+- Remote for this repo: https://github.com/maral-media/maral-media (rename to `maral-media.github.io` for root hosting).
+- Custom domain: **Settings** → **Pages** → **Custom domain**.
